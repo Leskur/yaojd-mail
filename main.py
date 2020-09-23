@@ -10,7 +10,7 @@ password = 'tongren.yaojd'
 message = MIMEText('药京采登录授权失败，请您及时处理。')
 
 message['From'] = formataddr(('Tongren 药京采', user))
-message['to'] = '173658141@qq.com'
+message['to'] = 'tongren.yaojd@gmx.com'
 message['Subject'] = Header('药京采授权登录提醒')
 
 try:
